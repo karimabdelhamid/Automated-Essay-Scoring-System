@@ -36,7 +36,7 @@ Follow these steps to set up and run the Automated Essay Grading System on your 
    - After installing the libraries, you need to download the Spacy English language model. Run:
 
      ```
-     python -m spacy download en_core_web_sm
+     py -m spacy download en_core_web_sm
      ```
 
 4. **Running the System**:
