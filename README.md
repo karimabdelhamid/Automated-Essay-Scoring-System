@@ -1,13 +1,13 @@
 # Automated Essay Grading System
 
-Welcome to the Automated Essay Grading System, an advanced tool designed to revolutionize the way essays are evaluated. Leveraging cutting-edge Natural Language Processing (NLP) and Machine Learning (ML) technologies, this system provides an automated, efficient, and accurate method of grading essays.
+Welcome to the Automated Essay Grading System, an advanced tool designed to revolutionize the way essays are evaluated and graded. Leveraging Natural Language Processing (NLP) and Machine Learning (ML) technologies, this system provides an automated, efficient, and accurate method of grading essays.
 
 ## Features
 
 - **NLP Analysis**: Utilizes Spacy, a leading NLP library, to deeply understand and analyze the structure and complexity of essays.
-- **Feature Extraction**: Identifies key characteristics of the essay, such as word count, sentence count, syllable count, and more, to assess the essay's quality.
-- **TF-IDF Vectorization**: Employs TF-IDF (Term Frequency-Inverse Document Frequency) to evaluate the importance of words within the essay, highlighting the essay's relevance and depth.
-- **Machine Learning Grading**: Uses a RandomForestRegressor, a robust ML model, to predict the essay score based on extracted features, simulating a nuanced grading process.
+- **Feature Extraction**: Identifies key characteristics of the essay, such as word count, sentence count, syllable count, and more to assess the essay's quality.
+- **TF-IDF Vectorization**: Uses TF-IDF (Term Frequency-Inverse Document Frequency) to evaluate the importance of words within the essay, highlighting the essay's relevance and depth.
+- **Machine Learning Grading**: Uses a RandomForestRegressor, an ML model, to predict the essay score based on extracted features, simulating a complex grading process.
 - **PDF Integration**: Allows for easy essay submission by reading directly from PDF files, ensuring convenience and accessibility for users.
 
 ## How to Use
@@ -34,10 +34,7 @@ This system is built on the foundation of advanced technologies and methodologie
 
 ## Contributing
 
-We welcome contributions from the community. If you have suggestions for improvements or new features, please feel free to fork the repository, make changes, and submit a pull request.
+I welcome contributions from the community. If you have suggestions for improvements or new features, please feel free to fork the repository, make changes, and submit a pull request.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Thank you for exploring the Automated Essay Grading System. We believe in harnessing the power of technology to enhance educational processes and outcomes.
+Thank you for exploring the Automated Essay Grading System. 
