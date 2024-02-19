@@ -12,16 +12,44 @@ Welcome to the Automated Essay Grading System, an advanced tool designed to revo
 
 ## How to Use
 
-1. **Preparation**: Ensure you have Python installed on your system along with the required libraries (`spacy`, `pandas`, `sklearn`, `numpy`, `PyMuPDF`).
+Follow these steps to set up and run the Automated Essay Grading System on your machine:
 
-2. **Installation**: Clone this repository to your local machine and navigate to the project directory.
+1. **Preparation**:
+   - Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+   - Make sure Python and pip (Python's package installer) are added to your system's PATH.
 
-3. **Setting Up**: Run `pip install -r requirements.txt` to install all necessary dependencies.
+2. **Installation**:
+   - Clone this repository to your local machine or download the project files.
+   - Open a terminal or command prompt and navigate to the project directory.
+
+3. **Setting Up**:
+   - Install the necessary Python libraries by running the following commands one by one in your terminal:
+
+     ```
+     pip install spacy
+     pip install pandas
+     pip install scikit-learn
+     pip install numpy
+     pip install PyMuPDF
+     ```
+
+   - After installing the libraries, you need to download the Spacy English language model. Run:
+
+     ```
+     python -m spacy download en_core_web_sm
+     ```
 
 4. **Running the System**:
-   - Launch the system by running `python automated_essay_grading_system.py` in your terminal.
-   - When prompted, enter the full path to the PDF file containing your essay.
-   - The system will analyze the essay and display the predicted score.
+   - Launch the system by running the following command in your terminal:
+
+     ```
+     python automated_essay_grading_system.py
+     ```
+
+   - When prompted, enter the full path to the PDF file containing your essay. The system will then analyze the essay and display the predicted score.
+
+Enjoy using the Automated Essay Grading System! Feel free to contribute to its development or suggest improvements.
+
 
 ## Advanced Technologies
 
